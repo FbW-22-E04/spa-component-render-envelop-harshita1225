@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  background-color: rgb(61, 60, 60);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.envelope {
+  background-color: white;
+  width: 45rem;
+  height: 25rem;
+  position: relative;
+  border: 1px solid black;
+  padding: 2rem;
+}
+
+img {
+  padding: 1rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.receiver {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-20%, -20%);
+}
